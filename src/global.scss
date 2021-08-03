@@ -34,3 +34,14 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   color: lightgray;
 }
+.action-dark,
+.action-sheet-group {
+  background-color: var(--ion-color-dark) !important;
+  color: white !important;
+}
+.action-dark ion-icon {
+  color: white !important;
+}
+.ios .action-sheet-icon {
+  display: none !important;
+}
