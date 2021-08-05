@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataLocalService } from '../../services/data-local.service';
 
 @Component({
   selector: 'app-tab3',
@@ -6,7 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
+  sliderOpts = {
+    allowSlidePrev: false,
+    allowSlideNext: false
+  }
+  constructor(public datalocalService: DataLocalService) {
 
-  constructor() {}
+  }
 
 }
